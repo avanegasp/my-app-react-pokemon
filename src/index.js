@@ -4,11 +4,13 @@ import './index.css';
 // import Pokemon from './components/Pokemon';
 import reportWebVitals from './reportWebVitals';
 import InfoPikachu from './components/InfoPikachu';
+import AllPokemon from './components/AllPokemon';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <InfoPikachu />
+    {/* <InfoPikachu /> */}
+    <AllPokemon />
   </React.StrictMode>
 );
 
