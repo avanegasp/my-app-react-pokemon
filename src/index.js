@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import Pokemon from './components/Pokemon';
 import reportWebVitals from './reportWebVitals';
+import InfoPikachu from './components/InfoPikachu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <InfoPikachu />
   </React.StrictMode>
 );
 
